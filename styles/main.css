@@ -1,0 +1,186 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+.title{
+    color: #0088A2;
+    font-size:42px ;
+    display: flex;
+    align-items: center;
+    text-align: right;
+}
+.burger-menu input{
+    opacity: 0;
+}
+.SOME{
+    width: 150px;
+    height: 150px;
+}
+.slogan{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    background-color: grey;
+    color: ivory;
+    font-size: 30px;
+    text-align: center;
+padding: 0;
+line-height: normal;
+}
+li{
+    width: 20%;
+}
+li:hover{
+ background-color: rgb(0, 247, 255);
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+}
+.block{
+    width: 30%;
+    position: relative;
+}
+.block img {
+    width: 100%;
+}
+.block p{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.app{
+   margin: 70px 0 50px 0;
+}
+.app h2{
+    color: #0088A2;
+    font-size: 50px;
+    text-align: center;
+}
+.banner{
+    width: 100%;
+    position: relative;
+}
+.img5{
+    width: 100%;  
+    border-radius: 20px;
+}
+.play{
+    width: 8%;
+    position: absolute;
+    top: 35%;
+    left: 45%;
+}
+.files{
+    width: 70%;
+    margin: auto;
+    margin-top: 4%;
+    height: 550px;
+    position: relative;
+}
+.file{
+    width: 250px;
+    position: absolute;
+}
+.file:nth-child(2) {
+left: 20%;
+}
+.file:nth-child(3) {
+    left: 40%;
+}
+.file:nth-child(4) {
+    left: 60%;
+}
+.file:nth-child(5) {
+    left: 80%;
+}
+.file:nth-child(even) {
+    top: 5%;
+}
+.words{
+    margin: 20px 0px 0px 0px;
+}
+h2{
+    color: #0088A2;
+    text-align: center;
+    font-size: 50px;
+}
+.words p{
+    color: #707070;
+    text-align: center;
+    font-size: 25px;
+    width: 80%;
+    margin: auto;
+}
+.scachat{
+    margin: 50px 0px 0px;
+}
+.scachat h2{
+    text-align: center;
+    color: #0088A2;
+    font-size: 40px;
+}
+.end{
+    justify-content: space-around;
+    width: 40%;
+    margin-left: 33%;
+    margin-top: 80px;
+
+}
+.android{
+    width: 250px;
+    height: 250px;
+}
+.icon{
+    width: 250px;
+    height: 250px;
+}
+.scachat p{
+    text-align: center;
+    color: #707070;
+    width: 70%;
+    margin: auto;
+    font-size: 18px;
+    margin-top: 80px;
+}
+footer{
+    background-color: #0088A2;
+    padding-top: 50px;
+    margin-top: 50px;
+}
+footer h2{
+    text-align: center;
+    color: white;
+}
+.web{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin: auto;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-left: -45px;
+    text-align: center;
+}
+.social{
+    width: 70px;
+}
+footer h3{
+    color: white;
+    font-size: 20px;
+}
+footer p{
+    font-size: 15px;
+}
